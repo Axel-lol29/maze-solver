@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from maze_solver import MAZE, START, END, solve_maze_bfs
 
-st.title("Visualizador de Algoritmo de Búsqueda en Laberinto")
+st.title("Visualizador de Algoritmo de Búsqueda en Laberinto. Axel Mireles #739047")
 
 # Función para renderizar el laberinto
 def render_maze(maze, path=None):
